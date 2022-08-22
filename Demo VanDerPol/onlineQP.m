@@ -2,12 +2,6 @@ close all;
 clear all; 
 clc
 
-% This is a toy example of CLF-QP
-% \dot x1 = x2 
-% \dot x2 = u , u \in [-0.5,0.5]. ROA:
-% CLF : V(x) = x1^2 + x2^2
-% HJ value function:  V = data2(x)
-
 % Problem setup
 dt = 0.1;
 sim_t = [0:dt:20];
