@@ -1,5 +1,5 @@
 # Control-Lyapunov-Value-Functions
-This is a repo for the CLVF paper by Zheng Gong, Muhan Zhao and Sylvia Herbert. All authors are in the MAE department of UCSD. 
+This is a repo for the CLVF paper by Zheng Gong, Muhan Zhao and Sylvia Herbert. All authors are in the MAE department of UCSD. This repo relies on the toolboxLS and helperOC
 
 Five demos are provided here, and you are welcomed to come up your own model. To use the code, you need first run "DemoXXX.m" to compute the CLVF, than you can run the onlineQP to see the trajectory. 
 
