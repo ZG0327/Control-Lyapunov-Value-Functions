@@ -70,6 +70,7 @@ schemeData.dMode = dMode;
 % % [data4,tau4] = ComputeHJ(data01,tau,schemeData,4,gamma3);
 % 
 
+% Save the value function and grid 
 save('data1.mat','data1')
 save('g.mat','g')
 
