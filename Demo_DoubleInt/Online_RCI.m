@@ -7,11 +7,11 @@ clc
 dt = 0.01;
 sim_t = [0:dt:3];
 delta = 1e-3;
-
+a = 0.007;
 
 % data1 = importdata('V0_2norm.mat');
-% data1 = importdata('V0_infnorm.mat');
-data1 = importdata('V0_qc.mat');
+data1 = importdata('V0_infnorm.mat');
+% data1 = importdata('V0_qc.mat');
 
 data_min = min(data1,[],'all');
 data1 = data1 - data_min;
@@ -117,7 +117,7 @@ l = length(V);
 figure
 plot(x(1,:),x(2,:));
 hold on
-visSetIm(g,data1,'c',0.01)
+visSetIm(g,data1,'c',a)
 
 xlabel('x','interpreter','latex');
 ylabel('y','interpreter','latex');
